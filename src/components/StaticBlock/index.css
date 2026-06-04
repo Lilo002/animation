@@ -1,0 +1,8 @@
+.target-block {
+    &:after {
+        content: '2';
+        font-size: 100px;
+        color: #333;
+        color: white;
+    }
+}

@@ -1,0 +1,9 @@
+.circle {
+    position: fixed;
+    border-radius: 50%;
+    background: #91be3d;
+
+    pointer-events: none;
+
+    transform: translate(-50%, -50%);
+}

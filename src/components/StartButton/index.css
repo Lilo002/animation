@@ -1,0 +1,14 @@
+.button {
+    padding: 10px 30px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 40px;
+    width: 400px;
+    margin: 0 auto;
+    &:disabled {
+        opacity: 0.5;
+    }
+}

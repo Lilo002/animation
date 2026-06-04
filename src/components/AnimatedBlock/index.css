@@ -1,0 +1,21 @@
+.moving-block {
+    animation: float 5s ease-in-out infinite;
+
+    &:after {
+        content: '1';
+        font-size: 100px;
+        color: #333;
+        color: white;
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(100%);
+    }
+}
