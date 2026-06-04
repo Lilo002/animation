@@ -39,7 +39,7 @@ function App() {
             const remaining = Math.max(0, DISABLED_DURATION - elapsed);
 
             setTimeLeft(remaining);
-
+            //я не уточняла у рекрутера уже. но в тз написано про дизейбл во время анимации (2 сек), а на видео после анимации еще 3 сек дизейбл (5 в сумме). делала по видео
             if (remaining === 0) {
                 clearInterval(interval);
                 setIsButtonDisabled(false);
